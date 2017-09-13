@@ -2,9 +2,11 @@
 
 timestamps{
 
-				stage("PollSource"){
+	node("master"){		
+	stage("PollSource"){
 					checkout scm			
 				}
+	}
 }
 
 
