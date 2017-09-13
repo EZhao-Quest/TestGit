@@ -7,6 +7,7 @@ timestamps{
 					checkout scm			
 				}
 	}
+	}
 }
 
 
